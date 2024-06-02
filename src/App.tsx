@@ -1,8 +1,6 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./style.css";
 import RouteHeader from "./component/RouteHeader";
 import Route from "./component/Route";
+import "./style.css";
 
 interface PersonProps {
   name: string;
@@ -18,7 +16,7 @@ interface DataProps {
 function App() {
   const data: DataProps = {
     routeName: "To the dunes and back",
-    myPosition: 1,
+    myPosition: 0,
     peopleOnRoute: [
       {
         name: "Lex",

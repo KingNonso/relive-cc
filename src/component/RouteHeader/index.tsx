@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./styles.css";
 
 interface RouteHeaderProps {
   routeName: string;
@@ -12,7 +13,8 @@ const RouteHeader: React.FC<RouteHeaderProps> = ({
   const [routeName, setRouteName] = useState(initialRouteName);
   const [completion, setCompletion] = useState(initialCompletion);
 
-  let label: string = completion === 100 ? "finished" : `${completion * 100}%`;
+  let label: string =
+    completion * 100 === 100 ? "finished!" : `${completion * 100}%`;
 
   useEffect(() => {
     setRouteName(initialRouteName);
