@@ -16,7 +16,7 @@ interface DataProps {
 function App() {
   const data: DataProps = {
     routeName: "To the dunes and back",
-    myPosition: 0,
+    myPosition: 0.9,
     peopleOnRoute: [
       {
         name: "Lex",
@@ -24,11 +24,11 @@ function App() {
       },
       {
         name: "Frikkie",
-        position: 0.25,
+        position: 1,
       },
       {
         name: "Ronald",
-        position: 0.75,
+        position: 0,
       },
     ],
   };

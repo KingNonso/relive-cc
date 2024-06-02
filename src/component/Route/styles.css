@@ -8,10 +8,18 @@
 .container .routes {
   position: relative;
   width: 100%;
-  background-color: red;
+  background-color: blue;
   height: 10px;
+  justify-content: space-between;
 }
 
 .my-position {
   background-color: burlywood;
+  border: 2px solid red;
+}
+
+.route-start,
+.route-end {
+  flex: 0 0 auto;
+  margin-left: 10%;
 }
