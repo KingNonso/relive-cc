@@ -1,0 +1,42 @@
+.relive-container {
+  padding-top: 50px;
+  padding-left: 4px;
+  align-items: center;
+}
+.route-header {
+  display: flex;
+  flex-direction: column;
+}
+.route-map {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+}
+.route {
+  display: inline;
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  background-repeat: repeat-x;
+  z-index: 1;
+}
+.person {
+  font-size: 20px;
+  color: black;
+  border: 2px solid blue;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 10px;
+  z-index: 2;
+  margin: auto;
+}
+.person-you {
+  font-size: 20px;
+  color: black;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 3;
+}
